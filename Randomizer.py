@@ -4,15 +4,15 @@ def rand(n):
     try:
         for x in range(0,n+1):
             print(random.random())
-        return;
+        return
     except ValueError:
-        quit();
+        quit()
 
 def main():
     rand(int(input("Enter the number of random values less than 1.00 that you'd like to obtain: ")))
-    return;
+    return
 
 try:
     main()
 except ValueError:
-    quit();
+    quit()
